@@ -1,0 +1,28 @@
+{
+    "name": "cjs/simpledb",
+    "description": "简单封装pdo连接，操作db",
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "http://www.nfangbian.com",
+    "authors": [
+        {
+            "name": "jelly",
+            "email": "42282367@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "CjsDb\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "suggest": {}
+}
